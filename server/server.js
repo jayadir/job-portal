@@ -4,7 +4,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // dotenv.config();
 
-const genAI = new GoogleGenerativeAI("AIzaSyD4cAXjTFVb1t1woMTF9ZCCuRQiQk0MHjA");
+const genAI = new GoogleGenerativeAI("");
 
 async function run() {
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
